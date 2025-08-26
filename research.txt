@@ -10,7 +10,19 @@ Previene errores en tiempo de compilación, ofrece documentación automática en
 3. ¿Qué significa que una clase sea abstracta?
 Una clase abstracta es una que no puede instanciarse directamente y puede contener metodos abstractos que las subclases deben implementar.
 4. ¿Por qué conviene usar getters y setters para el encapsulamiento?
-
+Permite controlar el acceso a propiedades privadas, se puede validar datos antes de asignarlos, mantienen consistencia en el objeto y puedes cambiar la logica sin modificar como se usa la clase.
 5. Ejemplificar cómo tipar:
 a. Una función con parámetros obligatorios y opcionales.
+function saludar(nombre: string, saludo?: string): string {
+  return "";
+}
 b. Una función que devuelve una Promise.
+function tePrometo: Promise<String>{
+    return new Promise(
+        (resolve)=>{
+            setTimeout(() => {
+      resolve("Un segundo ha pasado");
+    }, 1000);
+        }
+    )
+}
