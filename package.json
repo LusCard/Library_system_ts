@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:": "tsx watch ./src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/LusCard/Library_system_ts/issues"
   },
-  "homepage": "https://github.com/LusCard/Library_system_ts#readme"
+  "homepage": "https://github.com/LusCard/Library_system_ts#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5"
+  }
 }

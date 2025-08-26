@@ -1,6 +1,6 @@
 import { IBibliotecaItem } from "../interfaces/LibraryItem";
 
-abstract class Material implements IBibliotecaItem {
+export abstract class Material implements IBibliotecaItem {
   readonly id: string;
   title: string;
   author: string;
