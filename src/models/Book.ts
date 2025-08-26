@@ -1,5 +1,5 @@
 import { Material } from "./Material";
-class Book extends Material {
+export class Book extends Material {
   pages: number;
   genere?: string;
 

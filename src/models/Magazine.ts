@@ -1,6 +1,6 @@
 import { Material } from "./Material";
 
-class Magazine extends Material {
+export class Magazine extends Material {
   issue: string;
 
   constructor(id: string, title: string, author: string, issue: string) {

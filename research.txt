@@ -1,0 +1,16 @@
+1. ¿Qué diferencia existe entre extends y implements en TypeScript?
+extends:
+Se usa para herencia de clases.Una clase hija hereda propiedades y métodos de una clase padre.
+También se usa en interfaces para extender otra interfaz.
+implements:
+Se usa para indicar que una clase cumple con un contrato (interface). La clase debe implementar todos los métodos/propiedades definidos en la interfaz.
+
+2. ¿Qué ventajas ofrece el tipado fuerte en funciones y clases?
+Previene errores en tiempo de compilación, ofrece documentación automática en el editor, autocompletado, codigo más facil de mantener y claridad en los datos que se esperan manejar. 
+3. ¿Qué significa que una clase sea abstracta?
+Una clase abstracta es una que no puede instanciarse directamente y puede contener metodos abstractos que las subclases deben implementar.
+4. ¿Por qué conviene usar getters y setters para el encapsulamiento?
+
+5. Ejemplificar cómo tipar:
+a. Una función con parámetros obligatorios y opcionales.
+b. Una función que devuelve una Promise.
